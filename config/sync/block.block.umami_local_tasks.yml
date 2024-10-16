@@ -1,0 +1,22 @@
+uuid: 5da9db5c-a6cc-4045-bc3b-131b6f1fe75c
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - umami
+_core:
+  default_config_hash: IxC1zV9L6MyT897p-qPdP5PQiixF2f7pCSmHvCQJUkM
+id: umami_local_tasks
+theme: umami
+region: tabs
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Onglets
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,73 @@
+uuid: 70f4c8b7-28a5-40c4-a826-72abceb9ba4f
+langcode: fr
+status: true
+dependencies:
+  module:
+    - demo_umami
+_core:
+  default_config_hash: t80UBAZ-cqjuI6uDTHjRSMw1JfoHLkTh6YguTct6LbQ
+id: umami-front
+label: "Page d'accueil"
+module: demo_umami
+routes:
+  -
+    route_name: view.frontpage.page_1
+tips:
+  welcome:
+    id: welcome
+    plugin: text
+    label: 'Bienvenue sur la démonstration Umami Drupal'
+    weight: 1
+    body: 'Drupal est un système de gestion de contenu open source puissant et cette démonstration, basée sur un magazine culinaire fictif appelé Umami, vous présentera certains des concepts et fonctionnalités de Drupal.'
+  out-of-the-box:
+    id: out-of-the-box
+    plugin: text
+    label: 'Capacités du cœur ( core ) de Drupal'
+    weight: 2
+    body: 'Drupal fournit de nombreuses fonctionnalités dont vous avez besoin pour commencer à créer des sites web puissants immédiatement. Les fonctionnalités présentées dans cette démo sont entièrement basées sur les fonctionnalités principales de Drupal 8.'
+  navigation:
+    id: navigation
+    plugin: text
+    label: Navigation
+    weight: 3
+    position: right
+    selector: .menu-main__link.is-active
+    body: "Ceci est le menu de navigation principal du site web Umami. Il est simple de créer et d'administrer des menus et vous pouvez créer autant de menus que votre site l'exige. Par exemple, ce site fournit cette navigation principale ainsi que la navigation de l'utilisateur affichée ci-dessus."
+  umami-theme:
+    id: umami-theme
+    plugin: text
+    label: 'Le thème Umami'
+    weight: 4
+    position: left
+    selector: '.block-type-banner-block .summary'
+    body: "Le style de ce site est fourni par le thème personnalisé Umami. Ce thème a été créé en utilisant CSS et en personnalisant les gabarits HTML de Drupal qui utilisent le célèbre système de gabarit Twig. D'autres thèmes sont disponibles au téléchargement et à l'installation."
+  managing-content:
+    id: managing-content
+    plugin: text
+    label: 'Gestion de contenu'
+    weight: 5
+    position: left
+    selector: '.view-promoted-items--single .read-more__link'
+    body: "Ce site d'exemple fournit une collection d'articles et de recettes qui démontre avec quelle facilité le contenu peut être géré de façon flexible et structurée."
+  umami-front-views:
+    id: umami-front-content
+    plugin: text
+    label: "Configuration d'affichage de contenu"
+    weight: 6
+    position: right
+    selector: '.view-promoted-items--double .node:nth-child(1)'
+    body: "Les modes d'affichage peuvent être configurés pour fournir différentes présentations de contenu. Ces articles et recettes promus utilisent la fonctionnalité de modes d’affichage pour formater les images avec différents ratios."
+  umami-views:
+    id: umami-views
+    plugin: text
+    label: 'Affichage de contenu avec Views'
+    weight: 7
+    position: left
+    selector: '.view-frontpage .node:nth-child(1)'
+    body: "Drupal simplifie la création de listes de contenu filtré et le contrôle de l'affichage du contenu à l'aide de la fonctionnalité Views. Cet exemple de recettes dernier cri utilise une vue pour récupérer les quatre recettes les plus récentes et affiche la vue sous forme de bloc positionné sur la page d'accueil avec le système de blocs."
+  front-bookend:
+    id: front-bookend
+    plugin: text
+    label: "Continuer l'exploration de Drupal"
+    weight: 8
+    body: "La visite guidée de la page d'accueil est maintenant terminée. N'hésitez pas à cliquer où bon vous semble et de continuer à explorer Drupal."

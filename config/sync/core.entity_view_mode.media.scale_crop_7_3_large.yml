@@ -1,0 +1,12 @@
+uuid: 6e586e08-32d1-4786-a659-520c9bc752a3
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: B_sFTb1IDrYepEpv0JbwaccNjBlIQFiG12gZaheHge4
+id: media.scale_crop_7_3_large
+label: "Mise à l'échelle et recadrage en 7:3"
+targetEntityType: media
+cache: true

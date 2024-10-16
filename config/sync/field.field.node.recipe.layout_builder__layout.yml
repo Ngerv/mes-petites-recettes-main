@@ -1,0 +1,23 @@
+uuid: c010b5c4-e90f-4c49-a540-f5e3bda9d15d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.layout_builder__layout
+    - node.type.recipe
+  module:
+    - layout_builder
+_core:
+  default_config_hash: UTNj6Cv3gG7H6P2vAKEbEWQQu1X4exDFHP4xTLjkmBQ
+id: node.recipe.layout_builder__layout
+field_name: layout_builder__layout
+entity_type: node
+bundle: recipe
+label: Affichage
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: layout_section

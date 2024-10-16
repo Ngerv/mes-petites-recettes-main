@@ -1,0 +1,18 @@
+uuid: 7e4adbd5-fe85-4a37-a2a8-ff3c13c9f682
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.recipe
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: XuiNUBeexJIZ0pGEA4kaHE5WsRxd4p87Igxh8cE_eDU
+id: node.recipe
+target_entity_type_id: node
+target_bundle: recipe
+default_langcode: site_default
+language_alterable: true

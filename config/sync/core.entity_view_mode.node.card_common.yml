@@ -1,0 +1,12 @@
+uuid: ef19857c-28f4-4c91-a66b-d9d7fef5a801
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: nmGf3ZkxTWp1HmkQ7iq2M6uv-NUOu0hjXE4UNMY0MKk
+id: node.card_common
+label: 'Carte commune'
+targetEntityType: node
+cache: true

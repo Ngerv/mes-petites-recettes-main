@@ -1,0 +1,27 @@
+uuid: 44d337ee-e25d-4464-84b0-ccb53c69911c
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - umami
+_core:
+  default_config_hash: 5prrlTxk8gDlnDH_jhnc0dNihAw8WT-RVZ3nrec_wiE
+id: umami_breadcrumbs
+theme: umami
+region: breadcrumbs
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: "Fils d'ariane"
+  label_display: '0'
+  provider: system
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: '<front>'

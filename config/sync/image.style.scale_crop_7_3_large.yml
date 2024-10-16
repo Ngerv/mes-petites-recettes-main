@@ -1,0 +1,17 @@
+uuid: 4ccdcce7-f1a1-4ed1-b82f-0b6fc884d8dd
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: mE71kXVHB1uGi3AElzy_4jfdOhfnYfbWecImVA9r-Uo
+name: scale_crop_7_3_large
+label: "Mise à l'échelle et recadrage en 7:3"
+effects:
+  6e4edf30-59c0-45d0-ba6d-63dac5128eef:
+    uuid: 6e4edf30-59c0-45d0-ba6d-63dac5128eef
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1440
+      height: 617
+      anchor: center-center

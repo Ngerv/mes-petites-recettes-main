@@ -1,0 +1,10 @@
+uuid: 375763e9-c3ff-42e6-9411-888b7b9198ee
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _pCMU5fiFIhusD-eK3I_2BAZIrFoctN1lcuJfL5mnZY
+id: disclaimer_block
+label: 'Bloc de mentions légales'
+revision: 0
+description: "Un bloc de mentions légales contient une clause de non responsabilité et le texte des droits d'auteurs."

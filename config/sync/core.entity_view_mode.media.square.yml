@@ -1,0 +1,12 @@
+uuid: 7a30b831-9603-48c2-a0f2-ad7af5689940
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: jhFdVZaHLJb5b_ZoaAjYGuBZYVoeK6IZG5x3afIT1vI
+id: media.square
+label: Carré
+targetEntityType: media
+cache: true

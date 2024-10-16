@@ -1,0 +1,10 @@
+uuid: 7ee35d4b-141b-4b55-b1b1-6034b5ff7224
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 700UcZMAoqwXOP20vQ4DE5Yt7pnZ2niqBFBLHWOsTws
+id: banner_block
+label: 'Bloc bannière'
+revision: 0
+description: "Un bloc bannière contient un titre, un résumé, un lien vers le contenu et une image d'arrière plan. L'image d'arrière plan est mise à l'échelle pour correspondre à la largeur de la fenêtre du navigateur."

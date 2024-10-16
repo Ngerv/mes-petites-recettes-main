@@ -1,0 +1,10 @@
+uuid: 856e77da-dd6c-4ba7-b72b-7d170499edf4
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1OCKdTtMY6QI5-V9y-phCzW_SEM6FDLAiHx1yh4song
+id: footer_promo_block
+label: 'Bloc de pied de page de promotion'
+revision: 0
+description: 'Un bloc pied de page de promotion contient un titre, un texte de promotion et un lien "en savoir plus".'

@@ -1,0 +1,30 @@
+uuid: 33ff4b09-3d0e-4879-a048-60e1882f746d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.recipe
+    - taxonomy.vocabulary.tags
+_core:
+  default_config_hash: ShgeyME31DNNEJgj6AgnTefTI7bAvNcy62InWs2z-7c
+id: node.recipe.field_tags
+field_name: field_tags
+entity_type: node
+bundle: recipe
+label: Étiquettes
+description: 'Saisir une liste séparée par des virgules. Par exemple : Végétarien, Brownies au chocolat, Entrées'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+field_type: entity_reference

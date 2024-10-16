@@ -1,0 +1,12 @@
+uuid: 80733d48-e29a-4bb7-b8ac-778a16fa00ea
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: ywtGZ6aQN-1g5CwgTXKtu7ds_1d7wJZCwu0a2FyIl78
+id: node.card_common_alt
+label: 'Carte commune alt'
+targetEntityType: node
+cache: true

@@ -1,0 +1,71 @@
+uuid: e1bf483a-d806-45cc-ac33-1013854b6ae4
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.page
+    - node.type.recipe
+  module:
+    - content_moderation
+_core:
+  default_config_hash: DY4MQdo3Dq4vrHrQlJy_cSq6qveq6nHSjWM8f-zpAPE
+id: editorial
+label: Éditorial
+type: content_moderation
+type_settings:
+  states:
+    archived:
+      label: Archivé
+      weight: 5
+      published: false
+      default_revision: true
+    draft:
+      label: Brouillon
+      weight: -5
+      published: false
+      default_revision: false
+    published:
+      label: Publié
+      weight: 0
+      published: true
+      default_revision: true
+  transitions:
+    archive:
+      label: Archiver
+      from:
+        - published
+      to: archived
+      weight: 2
+    archived_draft:
+      label: 'Restaurer à Brouillon'
+      from:
+        - archived
+      to: draft
+      weight: 3
+    archived_published:
+      label: Restaurer
+      from:
+        - archived
+      to: published
+      weight: 4
+    create_new_draft:
+      label: 'Créer un Nouveau Brouillon'
+      from:
+        - draft
+        - published
+      to: draft
+      weight: 0
+    publish:
+      label: Publier
+      from:
+        - draft
+        - published
+      to: published
+      weight: 1
+  entity_types:
+    node:
+      - article
+      - page
+      - recipe
+  default_moderation_state: draft

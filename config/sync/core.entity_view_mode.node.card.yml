@@ -1,0 +1,12 @@
+uuid: 42f4d9c8-4940-44c7-a0cf-0c99728c441c
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: z6QSG0XSjPK_V4notuY8MaeIAO_QnwfvuH825TyLiHg
+id: node.card
+label: Fiche
+targetEntityType: node
+cache: true

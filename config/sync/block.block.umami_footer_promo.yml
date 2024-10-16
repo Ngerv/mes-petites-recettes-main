@@ -1,0 +1,30 @@
+uuid: 94e49be3-3498-4ecb-b5d3-0fce238d1a06
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:footer_promo_block:924ab293-8f5f-45a1-9c7f-2423ae61a241'
+  module:
+    - block_content
+  theme:
+    - umami
+  enforced:
+    module:
+      - demo_umami_content
+_core:
+  default_config_hash: 5wLGN6Ubw4i3lmahRmdUwHgdsfmUDfOKgfRfUILzpwQ
+id: umami_footer_promo
+theme: umami
+region: footer
+weight: -1
+provider: null
+plugin: 'block_content:924ab293-8f5f-45a1-9c7f-2423ae61a241'
+settings:
+  id: 'block_content:924ab293-8f5f-45a1-9c7f-2423ae61a241'
+  label: 'promo de pied de page Umami'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

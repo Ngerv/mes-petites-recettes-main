@@ -1,0 +1,23 @@
+uuid: 86535d78-7a16-45ae-857f-58563cf7e8de
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.layout_builder__layout
+    - node.type.article
+  module:
+    - layout_builder
+_core:
+  default_config_hash: yiakhqXt73mNDoJ9YDOLtnDi2-amxMDSKnRtRmGikVQ
+id: node.article.layout_builder__layout
+field_name: layout_builder__layout
+entity_type: node
+bundle: article
+label: Affichage
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: layout_section

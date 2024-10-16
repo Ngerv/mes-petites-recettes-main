@@ -1,0 +1,10 @@
+uuid: c464f009-cf4b-441b-b35c-586b30793a08
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wm3zsxqjVUNldWJhh-FumMfn2duT5EdGZstKm92JNak
+name: 'Catégorie de la recette'
+vid: recipe_category
+description: 'Utiliser cette taxonomie pour grouper les recettes du même type.'
+weight: 0

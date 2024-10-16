@@ -1,0 +1,12 @@
+uuid: bb2113bf-59ce-4016-a3f1-fde20006b3e7
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: MLQ-b8I239yOJy9cH7ZG9vuo3lvjRyVoQhebrlHVPF8
+id: media.medium_8_7
+label: 'Moyen 8:7'
+targetEntityType: media
+cache: true
